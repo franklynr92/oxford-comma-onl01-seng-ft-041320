@@ -5,7 +5,7 @@ elsif array.length == 2
   array.join(" and ") #returns array with a string "and"
   
 else array.length >= 3
-   array.join(", and") #returns 3 element array with "," "and"
+   array.join(", and ") #returns 3 element array with "," "and"
 end
 end
 
