@@ -9,7 +9,7 @@ elsif array.length >= 3
    almost_done = array.join(", ") 
    almost_done + ", and " + last_element
    
-   binding.pry
+   
 end
 end
 binding.pry
