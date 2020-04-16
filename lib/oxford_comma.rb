@@ -5,7 +5,7 @@ elsif array.length == 2
   array.join(" and ") #returns array with a string "and"
   
 else array.length >= 3
-   array.join(",") array.pop("and") #returns 3 element array with ","  and the "and" before the last element
+   array.join(",") #returns 3 element array with ","  and the "and" before the last element
 end
 end
 
