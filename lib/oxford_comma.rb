@@ -4,8 +4,10 @@ if array.length == 1 #returns array to string
 elsif array.length == 2
   array.join(" and ") #returns array with a string "and"
   
-else array.length >= 3
-   array.join(",") #returns 3 element array with ","  and the "and" before the last element
+elsif array.length >= 2
+  last_element = array.pop
+   almost_done = array.join(",") #returns 3 element array with ","  and the "and" before the last element
+   almost_done + ", and " + last_element
 end
 end
 
