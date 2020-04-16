@@ -6,7 +6,7 @@ elsif array.length == 2
 elsif array.length >= 3
   last_element = array.pop
    almost_done = array.join(", ") 
-   almost_done + " , and " + last_element
+   almost_done + ", and " + last_element
 end
 end
 
