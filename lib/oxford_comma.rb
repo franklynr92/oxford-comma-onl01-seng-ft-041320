@@ -12,4 +12,4 @@ elsif array.length >= 3
    binding.pry
 end
 end
-
+binding.pry
